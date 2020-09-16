@@ -111,3 +111,13 @@ h6 {
   top: 240px;
   left: 150px;
 }
+.new {
+  position: absolute;
+  text-align: center;
+  padding: 200px;
+  left: -160px;
+  top: 30px;
+}
+.new a:link{
+  color: #5694FF;
+}
