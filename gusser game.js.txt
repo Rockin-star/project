@@ -1,0 +1,38 @@
+let humanScore = 0;
+let computerScore = 0;
+let currentRoundNumber = 1;
+
+// Write your code below:
+const generateTarget = () => {
+  return Math.floor(Math.random() *10);
+}
+const compareGuesses = (user, comp, target) => {
+let userRange = Math.abs(target - user);
+let compRange = Math.abs(target - comp);
+if (userRange > compRange ) {
+  return false;
+} else if (userRange < compRange) {
+  return true;
+} else {
+  return true;
+}
+getAbsoluteDistance();
+const alert = () => {
+if (user < 0 || user >9) {
+  return window.alert;
+} 
+}
+}
+const updateScore = string => {
+if (string === 'human') {
+  humanScore += 1;
+} else if (string === 'computer') {
+  computerScore += 1;
+}
+}
+const advanceRound = () => {
+  currentRoundNumber += 1;
+}
+const getAbsoluteDistance = (num1, num2) => {
+return num1 + num2;
+}
